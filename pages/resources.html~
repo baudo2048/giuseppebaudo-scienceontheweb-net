@@ -31,10 +31,6 @@
 					<ul>
 						<li>Medium</li>
 					</ul>
-					<h3>Software Development Tools</h3>
-					<ul>
-						<li><a href="https://getcomposer.org/">Composer: Dependency Manager for PHP</a></li>
-					</ul>
 				</div>									<!-- interests > container > row > col-md-12 -->
 			</div>										<!-- interests > container > row -->
 		</div>											<!-- interests > container -->
