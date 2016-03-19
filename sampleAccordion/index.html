@@ -1,34 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="http://code.jquery.com/jquery.min.js"></script>
-<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-<link href="./style.css" rel="stylesheet" type="text/css" />
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="./style.css" rel="stylesheet" type="text/css" />
 
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  <meta charset="utf-8">
-  <title>JS Bin</title>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<meta charset="utf-8">
+	<title>JS Bin</title>
+
+	<style>
+		#draggable { width: 150px; height: 150px; padding: 0.5em; }
+	</style>
+
+	<script>
+		$(function() {
+			$( "#draggable" ).draggable();
+		});
+	</script>
 </head>
 <body>
-<div class="container">
-
-
-    
- 
-
-      <div id="collapseOne" class="collapse" >
-      coll
-      </div>
-      
-     
-          <a data-toggle="collapse" href="#collapseOne">
-            Button
-          </a>
-      
-     
+	<div class="container">
 
 
 
-</div>
+
+
+		<div id="draggable" class="panel panel-default">
+			<div class="panel-heading">
+				<div class="btn-group clearfix">
+					<a href="#" class="btn btn-default btn-sm">kddddd</a>
+					<a href="#" class="btn btn-default btn-sm">edddddd</a>
+					<a href="#" class="btn btn-default btn-sm">#ddddd</a>
+				</div>
+			</div>
+			<div class="panel-body">A Basic Panel</div>
+		</div>
+
+
+
+
+
+	</div>
 </body>
 </html>
