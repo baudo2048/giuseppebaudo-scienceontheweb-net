@@ -36,6 +36,11 @@
 						<li>perl</li>
 						<li>python</li>
 						<li><a href="./programming/regex.html">regex</a></li>
+							<ul>
+								<li><a href="https://msdn.microsoft.com/en-us/library/az24scfc%28v=vs.110%29.aspx" >REFERENCE: Regular Expression Language - Quick Reference</a></li>
+							</ul>
+						
+						
 						<li>scala</li>
 					</ul>	
 

@@ -44,7 +44,7 @@
 					the Temporary ASP.NET Files folder</p>	
 					<ul>
 						<li>Code-Behind Pages (mypage.aspx and mypage.aspx.cs</li>			
-						<li>Page Events</li>		
+						<li>Page Events (PreInit, Init, InitComplete, ...)</li>		
 					</ul>				
 					
 					<h3>Framework Class Library</h3>

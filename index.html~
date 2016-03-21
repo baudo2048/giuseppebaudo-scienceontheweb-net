@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Giuseppe Baudo's research on Computer Science and mathematics">
 	<meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript, Semantic Web, MKM, Math, Mathematical Knowledge Management">
-	<meta name="author" content="Giuseppe Baudo">
+	<meta name="author" content="giuseppe" >
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 	<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -42,7 +42,16 @@
 				<div class="col-md-2"><!-- empty col --></div>					
 			</div>
 
-
+			<div class="row"> <!-- SEARCH ENGINE -->
+				<div class="col-md-12">
+					    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Not yet active...">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Go!</button>
+      </span>
+    </div><!-- /input-group -->				
+				</div>			
+			</div>
 
 		</div>                        					
 	</div>		
@@ -92,7 +101,8 @@
 						<ul>
 							<li><a href="./pages/people.html">People</a></li>
 						    <li><a href="./pages/programming.html">Programming</a></li>
-							
+							<li>Search engines</li>
+							<li>Taxonomy and Indexing</li>
 							<li><a href="./pages/semantic-web.html">Semantic Web</a></li>
 							<li><a href="./pages/web-technologies.html">Web Technologies</a></li>						
 						</ul>
@@ -119,6 +129,7 @@
 					<ul>
 						<li><a href="./pages/mathnl.html">MathNL - Natural language to Math Formula Editor</a></li>
 						<li>HTML5 Component-based framework</li>
+						<li>People</li>
 					</ul>
 				</div>									
 			</div>										
