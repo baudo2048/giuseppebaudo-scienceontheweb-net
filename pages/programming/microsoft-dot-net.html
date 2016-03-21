@@ -32,7 +32,21 @@
 
 					<h3>ASP.NET Controls</h3>
 					<p>ASP.NET controls are the heart of ASP.NET Framework. An ASP.NET control is a .NET class that executes on the server and renders certain content to the browser.</p>
-
+					
+					<h3>ASP.NET Dynamic compilation</h3>
+					<p>Strangely enough, when you create an ASP.NET page, you are actually creating the source code 
+					for a .NET class. You are creating a new instance of the System.Web.UI.Page class. 
+					The entire contents of an ASP.NET page, including all script and HTML content, are 
+					compiled into a .NET class.</p>
+					<p>When you request an ASP.NET page, ASP.NET Framework checks for a .NET class that 
+					corresponds to the page. If a corresponding class does not exist, the Framework automatically 
+					compiles the page into a new class and stores the compiled class (the assembly) in 
+					the Temporary ASP.NET Files folder</p>	
+					<ul>
+						<li>Code-Behind Pages (mypage.aspx and mypage.aspx.cs</li>			
+						<li>Page Events (PreInit, Init, InitComplete, ...)</li>		
+					</ul>				
+					
 					<h3>Framework Class Library</h3>
 					<p>The .NET Framework contains thousands of classes that you can use when building an application. Framework Class Library was designed to make it easier to perform the most common programming tasks.</p>
 
@@ -45,6 +59,8 @@
 
 					<h3>Assemblies</h3>
 					<p>An assembly is the actual .dll file on your hard drive in which the classes in.NET Framework are stored.</p>
+
+
 				</div>									
 			</div>										
 		</div>											
