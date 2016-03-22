@@ -11,24 +11,23 @@
 	<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="./css/tableCV.css" type="text/css"/>	
+	<link rel="stylesheet" href="./css/style.css" type="text/css" />
 </head>
 
 
 <body>
 
 	<!-- JUMBOTRON -->
-	<div class="section">               					<!-- heading -->
+	<div id="jumbotron" class="section">               					<!-- heading -->
 		<div class="container">         					<!-- heading > container -->
 
 
 			<div class="row">           					<!-- heading > container > row -->
 				<div class="col-md-12">						<!-- heading > container > row > col-md-12 -->
-					<img src="./img/profile.jpg" class="center-block img-circle img-responsive">
-					<h3 class="text-center">Giuseppe Baudo</h3>
-					<p class="text-center">baudo81[at]gmail.com</p>
-					<p class="text-center">Undergraduate Student at Alma Mater Studiorum - University of Bologna</p>
+					<img src="./img/profile.jpg" class="center-block img-circle img-responsive">					
 				</div>										<!-- heading > container > row > col-md-12 -->
-			</div>                      					<!-- heading > container > row -->
+			</div>
+			<br>                      					<!-- heading > container > row -->
 			<div class="row"> <!-- networks -->
 				<div class="col-xs-2"><!-- empty col --></div>	
 				<div class="col-xs-1"><img src="./img/google.jpeg" class="center-block" width="30px"></div>
@@ -60,7 +59,8 @@
 				</div>	          					
 				<div class="col-md-6">					
 					<div class="input-group">
-						<input type="text" class="form-control" placeholder="Not yet active...">
+						<input id="textToSearch" type="text" class="form-control" placeholder="Not yet active...">
+
 						<span class="input-group-btn">
 							<button class="btn btn-default" type="button">Go!</button>
 						</span>
@@ -82,6 +82,9 @@
 					<p>
 						(2016) In this site I track <b>personal researches</b> about computer science. I'll investigate practical one as well as theorical one, in particular mathematics and logic.
 					</p>
+					<p>Giuseppe Baudo</p>
+					<p>baudo81[at]gmail.com</p>
+					<p>Undergraduate Student at Alma Mater Studiorum - University of Bologna</p>
 				</div>									
 			</div>										
 		</div>											
@@ -125,6 +128,7 @@
 
 					<div class="col-md-4">
 						<ul>
+							<li>Business Intelligence (BI)</li>
 							<li><a href="./pages/resources.html">Resources</a></li>
 						</ul>
 					</div>
@@ -182,5 +186,7 @@
 		</div>
 	</div>
 
+	<script type="text/javascript" src="./js/lib/underscore.js"></script>
+	<script type="text/javascript" src="./js/listeners.js"></script>
 
 </body></html>
