@@ -17,7 +17,9 @@ function searchStart(evt){
 
 	var textToSearch = document.getElementById('textToSearch').value;
 
-	$('#doodleRow').fadeOut()
+	
+	$('#doodleRow').fadeOut();
+	$('#githubSection').hide();
 	$('#researches').hide();
 	$('#projects').hide();
 	$('#cv').hide();
@@ -34,15 +36,43 @@ function li_clicked(evt) {
 //DOODLE
 $(document).ready(function (){
 	var canvas = document.getElementById('doodle');
-	context = canvas.getContext('2d');
+	var context = canvas.getContext('2d');
 	canvas.width=600;
 	canvas.height=347;
-  	base_image = new Image();
-  	base_image.src = './img/doodles/doodle1/doodle.jpg';
-  	context.drawImage(base_image, 0, 0);
 
-  	//context.font = "37px Arial";
-  	//context.fillText("hello canvas",72,100);
-  	
+
+      var sources = {
+        darthVader: 'http://www.baudo.hol.es/img/doodles/doodle1/doodle.jpg'
+      };
+
+      loadImages(sources, function(images) {
+        context.drawImage(images.darthVader, 0, 0);
+        
+      });
+
+
+
 
 });
+
+
+
+
+      function loadImages(sources, callback) {
+        var images = {};
+        var loadedImages = 0;
+        var numImages = 0;
+        // get num of sources
+        for(var src in sources) {
+          numImages++;
+        }
+        for(var src in sources) {
+          images[src] = new Image();
+          images[src].onload = function() {
+            if(++loadedImages >= numImages) {
+              callback(images);
+            }
+          };
+          images[src].src = sources[src];
+        }
+      }
