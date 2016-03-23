@@ -14,22 +14,32 @@
 
 
 function searchStart(evt){
-	//alert('hello');
+
 	var textToSearch = document.getElementById('textToSearch').value;
-	//alert (textToSearch);
-	//var sectionClasses = document.getElementsByClassName('section');
-	//for (i=0;i<sectionClasses.length;i++){
-	//	$(sectionClasses).addClass('removed');
-	//}
-	if(textToSearch==''){
-		$('#jumbotron').removeClass('removed');
-	} else {
-		$('#jumbotron').addClass('removed');
-	}
+
+	$('#jumbotron').hide();
+	$('#about').hide();
+	$('#researches').hide();
+	$('#projects').hide();
+	$('#cv').hide();
+	
 	
 }
 
 function li_clicked(evt) {
 	//alert('hello li clicked');
-	alert(evt.target.textContent);
+	//alert(evt.target.textContent);
 }
+
+
+//DOODLE
+$(document).ready(function (){
+	var canvas = document.getElementById('doodle'),
+	context = canvas.getContext('2d');
+	canvas.width=600;
+	canvas.height=347;
+  	base_image = new Image();
+  	base_image.src = './img/doodles/doodle1/doodle.jpg';
+  	context.drawImage(base_image, 0, 0);
+
+});
