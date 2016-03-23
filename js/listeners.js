@@ -34,7 +34,7 @@ function li_clicked(evt) {
 
 //DOODLE
 $(document).ready(function (){
-	var canvas = document.getElementById('doodle'),
+	var canvas = document.getElementById('doodle');
 	context = canvas.getContext('2d');
 	canvas.width=600;
 	canvas.height=347;
