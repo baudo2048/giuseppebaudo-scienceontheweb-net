@@ -17,8 +17,7 @@ function searchStart(evt){
 
 	var textToSearch = document.getElementById('textToSearch').value;
 
-	$('#jumbotron').hide();
-	$('#about').hide();
+	$('#doodleRow').fadeOut()
 	$('#researches').hide();
 	$('#projects').hide();
 	$('#cv').hide();
@@ -41,5 +40,9 @@ $(document).ready(function (){
   	base_image = new Image();
   	base_image.src = './img/doodles/doodle1/doodle.jpg';
   	context.drawImage(base_image, 0, 0);
+
+  	//context.font = "37px Arial";
+  	//context.fillText("hello canvas",72,100);
+  	
 
 });
