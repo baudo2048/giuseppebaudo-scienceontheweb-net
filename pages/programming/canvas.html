@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+	<title>Giuseppe Baudo - HTML Canvas Programming</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Notes on HTML5 Canvas Programming">
+	<meta name="keywords" conten="html html5 canvas notes tutorial javascript">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+	
+</head>
+
+
+<body>
+
+
+	
+
+	<div class="section">               					
+		<div class="container ">        					
+			<div class="row ">          					
+				<div class="col-md-12 ">					
+					<h1 class="text-primary ">HTML Canvas Programming</h1>
+					
+<pre>
+//background
+context.fillStyle = "#ffffaa";
+context.fillRect(0, 0, 500, 300);
+</pre>
+
+<pre>
+//text
+context.fillStyle = "#000000";
+context.font = "20px _sans";
+context.textBaseline = "top";
+context.fillText ("Hello World!", 195, 80 );
+</pre>
+
+<pre>
+//image
+var helloWorldImage = new Image();
+helloWorldImage.src = "helloworld.gif";
+helloWorldImage.onload = function () {					//Before drawing an image you have to load it
+	context.drawImage(helloWorldImage, 160, 130);
+}
+</pre>
+
+<pre>
+//box
+context.strokeStyle = "#000000";
+context.strokeRect(5, 5, 490, 290);
+</pre>
+
+<pre>
+The HTML5 2D context (the CanvasRenderingContext2D object), retrieved by a call to
+the getContext() method of the Canvas object, is where all the action takes place. The
+CanvasRenderingContext2D contains all the methods and properties we need to draw
+onto the canvas. The CanvasRenderingContext2D (or context, as we will call it hereafter)
+uses a Cartesian coordinate system with 0,0 at the upper left and corner of the canvas,
+and coordinates increasing in value to the left and down.
+</pre>
+
+<pre>
+However, all of these properties and methods are used in conjunction with current
+state, a concept that must be grasped before you can really understand how to work
+with HTML5 Canvas. The current state is actually a stack of drawing states that apply
+globally to the entire canvas. You will manipulate these states when drawing on the
+canvas. These states include:
+
+Transformation matrix
+	Methods for scale, rotate, transform, and translate
+
+Clipping region
+	Created with the clip() method
+
+Properties of the context
+	Properties include strokeStyle , fillStyle , globalAlpha , lineWidth , lineCap , line
+	Join , miterLimit , shadowOffsetX , shadowOffsetY , shadowBlur , shadowColor , global
+	CompositeOperation , font , textAlign , and textBaseline .
+
+Don’t worry; these should not look familiar to you just yet. We will discuss these prop-
+erties in depth in the next three chapters.
+</pre>
+
+<h3>Immediate mode vs Retained mode</h3>
+<p class="text-justify">
+The canvas is an immediate mode drawing surface, which means everything
+needs to be redrawn every time something changes. There are some advantages to this;
+for example, global properties make it very easy to apply effects to the entire screen.
+Once you get your head around it, the act of redrawing the screen every time there is
+an update makes the process of drawing to the canvas straightforward and simple.
+</p>
+<p class="text-justify">
+On the other hand, retained mode is when a set of objects is stored by a drawing surface
+and manipulated with a display list. Flash and Silverlight work in this mode. Retained
+mode can be very useful for creating applications that rely on multiple objects with
+their own independent states. Many of the same applications that could make full use
+of the canvas (games, activities, animations) are often easier to code with a retained
+mode drawing surface, especially for beginners.
+</p>
+
+<h3>Encapsulating your JavaScript code for Canvas</h3>
+<p class="text-justify">
+	Now that we have created a way to test to see whether the HTML page has loaded, we
+can start creating our JavaScript application. Because JavaScript runs in an HTML page,
+it could be running with other JavaScript applications and code simultaneously. Usu-
+ally, this does not cause any problems. However, there is a chance that your code might
+have variables or functions that conflict with other JavaScript code on the HTML page.
+Canvas applications are a bit different from other apps that run in the web browser.
+</p>
+<p class="text-justify">
+Because Canvas executes its display in a defined region of the screen, its functionality
+is most likely self-contained, so it should not interfere with the rest of the page, and
+vice versa. You might also want to put multiple Canvas apps on the same page, so there
+must be some kind of separation of JavaScript when defining the code.
+</p>
+<p class="text-justify">
+To avoid this issue, you can encapsulate your variables and functions by placing them
+inside another function. Functions in JavaScript are objects themselves, and objects in
+JavaScript can have both properties and methods. By placing a function inside another
+function, you are making the second function local in scope to the first function.
+</p>
+
+<h3>How to clear Canvas</h3>
+<p></p>
+
+					<h3>Resources</h3>
+						<ul>
+							<li><a href="../../samples/canvas/game.html">SAMPLE 1: Canvas app structure</a></li>
+							<li>http://www.html5rocks.com/en/tutorials/canvas/texteffects/</li>
+							<li>http://www.authorcode.com/text-animation-in-html5/</li>
+							<li>https://davidwalsh.name/canvas-demos</li>
+							<li>http://stackoverflow.com/questions/29911143/how-can-i-animate-the-drawing-of-text-on-a-web-page</li>
+							<li>https://www.codementor.io/javascript/tutorial/how-to-make-a-write-on-effect-using-html5-canvas-and-javascript-only</li>
+							<li>http://www.qiciengine.com/</li>
+							<li>https://html5gameengine.com/</li>
+						</ul>
+					
+				</div>									
+			</div>										
+		</div>											
+	</div>												
+
+
+
+
+
+	
+
+	</body></html>
