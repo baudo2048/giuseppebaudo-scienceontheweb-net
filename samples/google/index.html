@@ -43,7 +43,7 @@
 					</div>	
 					
 					<div class="col-md-6">
-						<button type="button" onclick="addMarker()">Add Marker</button>
+						<button type="button" onclick="addMarker()">Add Marker</button><br />
 						<button type="button" onclick="addMarkerWithDataFromServer()">Add Marker with data from server</button>
 					</div>								
 				</div>								
@@ -75,11 +75,11 @@
 			}
 
 
-			function addMarkerWithDataFromServer {
+			function addMarkerWithDataFromServer() {
 				$.ajax({
-  					url: "www.baudo.hol.es/samples/google/getFromPhpScript.php"
+  					url: "./getFromPhpScript.php"
   				}).done(function( data ) {
-					alert(data.lat + ' ' + data.long)
+					alert(data.lat + ' ' + data.long);
 				});
 
 			  	// Create a marker and set its position.
