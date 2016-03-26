@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>Giuseppe Baudo - Teaching</title>
+	<title>Giuseppe Baudo - Google Api JavaScript Sample</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -21,21 +21,31 @@
 		<div class="container ">        					
 			<div class="row ">          					
 				<div class="col-md-12 ">					
-					<h1 class="text-primary ">Teaching</h1>
-					<h3>Primola.it</h3>
-					<ul>
-						<li>Programmazione pagine Web</li>
-						<li><a href="./teaching/children-university.html">Children's University</a></li>
-					</ul>
+					<h1 class="text-primary ">Google Api JavaScript Sample</h1>
+					<div id="map"></div>
+
+					
 				</div>									
 			</div>										
 		</div>											
 	</div>												
 
 
+	<script type="text/javascript">
+		var map;
+		function initMap() {
+			map = new google.maps.Map(document.getElementById('map'), {
+				center: {lat: -34.397, lng: 150.644},
+				zoom: 8
+			});
+		}
+	</script>
+
 
 
 
 	
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOxwcHGQv7xot00ZPK2qX3G5KQHZD8BIw&callback=initMap"
+	async defer></script>
 
-	</body></html>
+</body></html>
