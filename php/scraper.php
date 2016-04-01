@@ -1,6 +1,24 @@
 <?php
 
-	$url = $_GET['textToSearch'];
-	$result_page = file_get_contents($url);
-	echo $result_page;
+//Function to make GET request using cURL
+
+function curlGet($url){
+	$ch = curl_init(); //Initialising cURL session
+
+	// Setting cURL options
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+	curl_setopt($ch, CURLOPT_URL, $url);
+
+	$results = curl_exec($ch);  //Executing cURL session
+
+	curl_close($ch);   //Closing cURL session
+
+	return $results;   //Return the results
+
+}
+
+$packtPage = curlGet($_GET['textToSearch']);
+
+echo $packtPage;
+
 ?>

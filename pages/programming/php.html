@@ -35,6 +35,40 @@
 					<h3>How to see installed modules</h3>
 					<p>on the command prompt run:</p>
 					<pre>giuseppe@giuseppe ~ $ php -m</pre>
+
+					<h3>Web Scraping</h3>
+					<p>Making a simple cURL request (Simple)</p>
+					<p>In PHP the most common method to retrieve a web resource, in this case a web page, is to use the cURL library, which enables our PHP script to send and receive HTTP requests to and from our target web server.</p>	
+					<p>When we visit a web page in a client, such as a web browser, an HTTP request is sent. The server then responds by delivering the requested resource, for example an HTML file, to the browser, which then interprets the HTML and renders it on screen, according to any associated styling specification. When we make a cURL request, the server responds in the same way, and we receive the source code of the Web page which we are then free to do with as we will in this case perform by scraping the data we require from the page.</p>
+					<pre>
+						
+						//Function to make GET request using cURL
+
+						function curlGet($url){
+							$ch = curl_init(); //Initialising cURL session
+
+							// Setting cURL options
+							curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+							curl_setopt($ch, CURLOPT_URL, $url);
+
+							$results = curl_exec($ch);  //Executing cURL session
+
+							curl_close($ch);   //Closing cURL session
+
+							return $results;   //Return the results
+
+						}
+
+						$packtPage = curlGet('http://www.packtpub.com/oop-php-5/book');
+
+						echo $packtPage;
+					
+					</pre>
+					<p>Now that we have requested and downloaded a web page, as mentioned in the Making a simple cURL request recipe we can now proceed to scrape the data that we require.</p>
+					<p>XPath can be used to navigate through elements in an XML document. In this recipe we will convert our downloaded web page into an XML DOM object, from which we will use XPath to scrape the required elements based on their tags and attributes, such as CSS classes and IDs.</p>
+					<ul>
+						<li><a href="http://it-ebooks.info/book/4297/">(1)BOOK: PHP Web Scraping</a></li>
+					</ul>
 				</div>									
 			</div>										
 		</div>											

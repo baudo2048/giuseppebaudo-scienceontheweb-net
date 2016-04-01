@@ -8,6 +8,8 @@
 	<meta name="author" content="giuseppe" >
 	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 	<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 	<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="./css/tableCV.css" type="text/css"/>	
@@ -157,6 +159,7 @@
 						<li><a href="./pages/mathnl.html">MathNL - Natural language to Math Formula Editor</a></li>
 						<li>HTML5 Component-based framework</li>
 						<li>People Finder</li>
+						<li>Sbobinater</li>
 					</ul>
 				</div>									
 			</div>										
@@ -229,6 +232,41 @@
 											
 											
 	</div>	
+
+	<div id="waitingSection" class="section">               					
+		<div class="container ">        					
+			<div class="row ">          					
+				<div class="col-md-12 ">					
+					<img src="./img/waiting.gif" class="center-block">
+				</div>									
+			</div>										
+		</div>											
+	</div>
+
+	<!-- Selected Element Modal -->
+	<div id="selElementModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button id="closeModalBtn" type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Modal Header</h4>
+				</div>
+				<div id="selElementModalBody" class="modal-body">
+					<textarea id="selElementText">
+						
+					</textarea>
+				</div>
+				<div class="modal-footer">
+					<button id="selElementModalSave" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+
+		</div>
+	</div>	
+
+
 
 	<script type="text/javascript" src="./js/lib/underscore.js"></script>
 	<script type="text/javascript" src="./js/listeners.js"></script>
