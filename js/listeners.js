@@ -25,6 +25,7 @@
 
 
 function searchStart(evt){
+	
 
 	var textToSearch = document.getElementById('textToSearch').value;
 
@@ -57,7 +58,16 @@ function searchStart(evt){
 		$('#scrapingResult').html(data);
 		$('#scrapingSection').fadeIn();
 
+		// formatto il risultato in modo da creare i riquadri per il contenuto
 		$('#scrapingResult *').addClass('selectable');
+
+		// questa funzione cattura tutti i click su link nel result
+		$('#scrapingResult a').on('click', function(event){
+			event.preventDefault();
+			alert($(this).attr('href'));
+			$('#textToSearch').val($(this).attr('href'));
+			searchStart(evt);
+		});
 	});
 
 
