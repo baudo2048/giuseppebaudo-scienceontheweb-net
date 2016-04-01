@@ -64,10 +64,11 @@ function searchStart(evt){
 		// questa funzione cattura tutti i click su link nel result
 		$('#scrapingResult a').on('click', function(event){
 			event.preventDefault();
-			alert($(this).attr('href'));
+			//alert($(this).attr('href'));
 			$('#textToSearch').val($(this).attr('href'));
-			searchStart(evt);
+			searchStart(event);
 		});
+		// visto quello che succede prima, da qui in poi non faccio nulla?
 	});
 
 
