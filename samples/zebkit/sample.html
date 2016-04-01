@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+		<script type="text/javascript" src="./zebra/zebra.min.js"></script>
+	</head>
+	<body>
+
+ 	<script> 
+ 		
+		
+
+        zebra.ready(function() {
+            // safe place for writing zebra app code  
+
+            // create canvas 400x700 pixels
+    		var canvas = new zebra.ui.zCanvas(400, 400);
+ 
+    		// fill canvas root panel with UI components
+    		canvas.root.setLayout(new zebra.layout.BorderLayout(8));
+    		canvas.root.add(zebra.layout.CENTER, new zebra.ui.TextArea(""));
+    		canvas.root.add(zebra.layout.BOTTOM, new zebra.ui.Button("Clean"));
+        });
+    </script>	
+
+	
+	</body>
+</html>
