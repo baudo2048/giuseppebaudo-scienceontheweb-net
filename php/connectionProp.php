@@ -1,5 +1,6 @@
 <?php
-	$servername = "your_host";   // for example localhost
-	$username = "your_user";	 // for example root
-	$password = "your_password";
+	$servername = "localhost";   // for example localhost
+	$username = "root";	 // for example root
+	$password = "sophia<2006";
+	$db = "baudo";
 ?>

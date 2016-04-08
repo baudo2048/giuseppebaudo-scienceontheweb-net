@@ -1,11 +1,9 @@
 <?php
 	include_once './connectionProp.php';
 	// Create connection
-	$conn = new mysqli($servername, $username, $password);
+	$dbh = new PDO('mysql:host=localhost;dbname=baudo', $username, $password);
+	
 
-	// Check connection
-	if ($conn->connect_error) {
-	    die("Connection failed: " . $conn->connect_error);
-	}
-	echo "Connected successfully";
+
+	
 ?> 
