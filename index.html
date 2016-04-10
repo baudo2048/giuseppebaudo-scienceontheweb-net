@@ -55,7 +55,7 @@
 			</div> -->
 
 			
-			<div class="row ">
+			<div id="toolbarRow" class="row ">
 				
 				<div class="col-md-2">		
 				</div>        					
@@ -65,6 +65,7 @@
 
 						<span class="input-group-btn">
 							<button id="searchBtn" class="btn btn-default" type="button">Go!</button>
+							<button id="addwordBtn" class="btn btn-default" type="button">AddW</button>
 						</span>
 					</div><!-- /input-group -->	
 				</div>	
@@ -143,6 +144,7 @@
 							<li><a href="./pages/english.html">English language</a></li>
 							<li><a href="./pages/communication-skills.html">Communication skills</a></li>
 							<li><a href="./pages/miscellaneous.html">Miscellaneous</a></li>
+							<li><a id="viewAllPages" href="#">view all pages</a></li>
 						</ul>
 					</div>
 
@@ -217,15 +219,20 @@
 		</div>											
 	</div>
 
+
+	<!-- ****** HIDDEN SECTIONS  -->
+
 	<div id="scrapingSection"> 
 		<div id="scrapingResult"></div>	
 	</div>	
 
-	<div id="waitingSection" class="section">               					
+	<!-- View all pages section -->
+	<div id="viewAllPagesSection" class="section">               					
 		<div class="container ">        					
 			<div class="row ">          					
-				<div class="col-md-12 ">					
-					<img src="./img/waiting.gif" class="center-block">
+				<div id="viewAllPagesCol" class="col-md-12 ">					
+
+
 				</div>									
 			</div>										
 		</div>											
@@ -255,8 +262,22 @@
 	</div>	
 
 
+	<style>
 
-	<script type="text/javascript" src="./js/lib/underscore.js"></script>
+	</style>
+
+
+
+
+
+
+	<script type="text/javascript" src="./js/search_function.js"></script>
+	<script type="text/javascript" src="http://www.baudo.hol.es/js/lib/underscore.js"></script>
 	<script type="text/javascript" src="./js/listeners.js"></script>
 	<script type="text/javascript" src="http://www.baudo.hol.es/js/doodle1.js"></script>
+
+	<script>
+		// here set up whole app
+
+	</script>
 </body></html>

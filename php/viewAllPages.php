@@ -17,9 +17,13 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     // output data of each row
+    echo "<ul>";
     while($row = $result->fetch_assoc()) {
-        echo "id: " . $row["id"];
+    	echo '<li><a href="' . $row["title"] . '">' .$row["name"] . '</a></li>';
+        
     }
+    echo "</ul>";
+
 } else {
     echo "0 results";
 }
