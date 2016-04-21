@@ -85,4 +85,4 @@ jk.viewAllPages = function (evt){
 
 
 
-}(window.jk={}));
+}(window.jk || jk=window.jk : window.jk={}));
