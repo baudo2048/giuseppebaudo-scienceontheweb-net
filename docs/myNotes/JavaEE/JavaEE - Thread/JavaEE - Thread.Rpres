@@ -1,0 +1,11 @@
+JavaEE - Thread
+========================================================
+author: 
+date: 
+
+Crating Thread
+========================================================
+
+1. Extends Thread class
+2. Implements Runnable interface
+

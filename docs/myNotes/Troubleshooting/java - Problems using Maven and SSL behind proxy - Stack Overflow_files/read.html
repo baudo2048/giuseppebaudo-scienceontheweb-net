@@ -1,0 +1,24 @@
+
+<!-- saved from url=(0178)https://stackauth.com/auth/global/read?request=PdVM92DnA5rHMjqw%2Fk8SvFhQeStIl6CHQMBgh%2FUa7G1575gxzEYDfkrybB03GvWtWrumTXqXD91dSDW9c5LWwQ%3D%3D&nonce=b0SWVQAAAAAK9AP0FIJ4pA%3D%3D -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                  <script>
+                  var data = {"ReadSession":"https://stackauth.com/auth/global/read-session","Request":"PdVM92DnA5rHMjqw/k8SvFhQeStIl6CHQMBgh/Ua7G1575gxzEYDfkrybB03GvWtWrumTXqXD91dSDW9c5LWwQ==","Nonce":"b0SWVQAAAAAK9AP0FIJ4pA==","Referrer":"http://stackoverflow.com/questions/25911623/problems-using-maven-and-ssl-behind-proxy","StorageName":"GlobalLogin"};
+
+                  var toMsg = window.parent;
+
+                  var obj = localStorage ? localStorage.getItem(data.StorageName) : null;
+                  if(obj != null) {
+                  var req = new XMLHttpRequest();
+                  req.open('POST', data.ReadSession+'?request='+encodeURIComponent(data.Request)+'&nonce='+encodeURIComponent(data.Nonce)+'&seriesAndToken='+encodeURIComponent(obj), false);
+                  req.send(null);
+                  
+                    if(req.status == 200){
+                      toMsg.postMessage(req.responseText, data.Referrer);
+                    }else{
+                      toMsg.postMessage('No Session', data.Referrer);
+                    }
+                  }else{
+                    toMsg.postMessage('No Local Storage', data.Referrer);
+                  }
+                  </script>
+                  </head><body></body></html>

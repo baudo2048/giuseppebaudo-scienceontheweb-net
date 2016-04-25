@@ -1,0 +1,29 @@
+#!/bin/bash         
+
+/*
+	todo
+	1) 	understanding this line
+		while [ -L "$TARGET_FILE" -a $COUNT -lt 100 ]
+		in particular -L and -and
+		-lt stands for less than
+		
+		-L This returns true if the given variable holds the path of a symlink
+		SOLVED
+	
+	2)	understanding this line
+		while [[ $# -gt 0 ]]; do
+		in particular $#
+
+	3)	$(func_name) or `func_name` to execute command? function?
+		example:
+		TODAY=`date +%A`
+		echo “Today is $TODAY”
+		
+		or
+		
+		TODAY=$(date +%A)
+		echo “Today is $TODAY”
+		
+		
+		
+*/

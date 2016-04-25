@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv='Content-type' content='text/html; charset=utf-8'>
+    <title>My second React</title>
+    <link rel="stylesheet" href="../shared/css/base.css" />
+  </head>
+  <body>
+   
+    <div id="container">
+
+
+    <script src="../shared/thirdparty/es5-shim.min.js"></script>
+    <script src="../shared/thirdparty/es5-sham.min.js"></script>
+    <script src="../shared/thirdparty/console-polyfill.js"></script>
+    <script src="../../build/react.js"></script>
+    <script src="../../build/JSXTransformer.js"></script>
+	<script src="/thirdparty/react-menus.js"</script>
+    <script type="text/jsx">
+      var Second = React.createClass({
+	  
+		getInitialState: function() {
+			return {
+				liked: false,
+				stato2: "mario"
+			};
+		},
+		
+		handleClick: function(event) {
+			this.setState({liked: !this.state.liked});
+			this.setState({stato2: "Cliccato"});
+		},
+		
+        render: function() {
+          
+			var text = this.state.liked ? 'piace' : 'NON piace'; 
+			return ( 
+				<p onClick={this.handleClick}> 
+				A te {text} {this.state.stato2} questo esempio. Clicca per modificare. 
+				</p> 
+			); 
+
+        }
+      });
+      
+      React.render(
+          <Second message="ciao" />,
+          document.getElementById('container')
+        );
+      
+	  var items = [
+    {
+        label: 'hello',
+        onClick: function(itemProps, index, event) {
+            console.log('well, hello')
+        }
+    },
+    '-', //show separator
+    {
+        label: 'hi'
+    },
+    {
+        label: 'export',
+        disabled: true
+    }
+]
+ 
+function onClick(event, props, index){
+ 
+}
+ 
+<Menu items={items} onClick={onClick}/>
+
+	  
+	  
+    </script>
+  </body>
+</html>

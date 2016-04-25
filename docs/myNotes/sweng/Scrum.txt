@@ -1,0 +1,12 @@
+SCRUM
+EnglishGlossary
+tidbits: bocconcino, leccornia, (fig)notizia.
+set out to (do): e.g. set out to describe (avere intenzione di, voler)
+
+INTRO
+Unlike a manufacturing line in which the management measures units delivered per day, Agile software development is measured in terms of customer happiness based on the features or feature set delivered by the team.
+In few words there is no time and a good scrumMaster must balance demand of new features and supply.
+Scrum was born in the 90s but some ideas behinde him were appeared in 80s (see The New Product Development Game by Hirotaka Takeuchi).
+It's important for ScrumMasters to remember that Scrum practices - a set of work steps, outputs, and artifacts - are nothing without the underlying mind-set and concepts toward product development that Takeuchi and Nonaka set out to describe:
+The following are subsequent processes of Scrum: Extreme Programming, Lean, Kanban.
+

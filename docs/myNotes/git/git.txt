@@ -1,0 +1,45 @@
+branch
+
+Checkout new branch
+
+FETCH_HEAD: git facility
+
+HEAD: pointer to active branch.
+	detached HEAD state 
+	
+Index: Contain files to be committed to your repo.
+
+Merge upstream
+
+origin: alias for remote repository
+
+ORIG_HEAD: git facility
+
+pull
+
+pull request:
+
+push 
+
+Rebase commits
+
+refs: reference
+	refs/tags contains metadata for tags
+	refs/heads contains metadata for branches
+	refs/stash contains latest created stash 
+	refs/remote/origin/nome_branca ???
+	inside directory tags and heads each tag and head have their own file containing the SHA1 ID.
+
+remote
+
+stash: saves away the current state of the working directory and the index and reverts the working directory to match the HEAD commit.
+	
+tags: Tags specified point in the branch lifetime.
+
+
+
+Terms
+amend:
+detached: distaccato, indipendente
+staging: organizzazione
+stash: scorte segrete, scorte, nascondere, mettere via
