@@ -1,7 +1,9 @@
 <?php
 
-//Function to make GET request using cURL
+// Enable cors requests
+header("Access-Control-Allow-Origin: *");
 
+//Function to make GET request using cURL
 function curlGet($url){
 	$ch = curl_init(); //Initialising cURL session
 
