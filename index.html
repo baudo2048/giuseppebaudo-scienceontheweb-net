@@ -19,6 +19,7 @@
 <section class="logo">Baudo's Family</section>
 <nav><ul class="topnav" id="myTopnav">
   <li class="active">Home</li>
+  <li><a href="./docs/cv/">CV</a></li>
 </ul>
 </nav>
 <section class="header-img">
@@ -27,9 +28,15 @@
 <section class="intro">
 <h1>Hi, my name's Giuseppe.</h1>
  I'm a computer programmer.
- I'm relatively new to computer programming.
  I've about 3 years of experience on web and desktop development both in java as in c# as well as front end experience with javascript, reactjs and angular2. 
-<p><a class="button" href="#">Get Started</a></p>
+<p><a id="livechat" class="button" onclick="showNumber(event)">Contact</a></p>
+<script type="text/javascript">
+function showNumber(event){
+	event.preventDefault();
+	document.getElementById('livechat').innerHTML="whatsapp - 3923103038 <br \>mail - beppe@baudo.hol.es"
+} 
+	
+</script>
 
 </section>
 </section>
