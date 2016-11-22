@@ -1,0 +1,56 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{hyperref}
+
+%opening
+\title{Permutazione}
+\author{baudo81[at]gmail.com}
+
+\begin{document}
+
+\maketitle
+
+\section{DEFINIZIONE}
+Sia $X$ un insieme non vuoto. Si dice permutazione su $X$ ogni applicazione bigettiva di $X$ in se stesso. \cite{permutazione1}
+
+\section{NOTAZIONE}
+In generale, per indicare una permutazione si usano le lettere greche minuscole, es. $\sigma$, e la cosiddetta notazione matriciale,
+nella quale sono riportarte (nella seconda riga) le immagini secondo $\sigma$ degli elementi di $X$ (scritti nella prima riga):
+\[
+\left(
+ \begin{array}{cccc}
+  1 & 2 & ... & n \\
+  \sigma(1) & \sigma(2) & ... & \sigma(n)
+ \end{array}
+\right)
+\] \cite{permutazione1}
+
+\section{PERMUTAZIONE IDENTICA - ELEMENTO NEUTRO RISPETTO ALLA COMPOSIZIONE DI PERMUTAZIONI}
+In questa notazione, l'applicazione identica corrisponde ad una matrice con due righe uguali:
+\[
+\left(
+ \begin{array}{cccc}
+  1 & 2 & ... & n \\
+  1 & 2 & ... & n \\
+ \end{array}
+\right)
+\]
+
+Indicheremo tale applicazione (detta permutazione identica), più semplicemente, con il simbolo $id$. \cite{permutazione1}
+
+\section{INSIEME DELLE PERMUTAZIONI}
+Denoteremo con $S(X)$ l'insieme delle permutazioni su $X$. \cite{permutazione1}
+
+\section{NOTE}
+Una permutazione è una funzione
+
+\section{APPROFONDIMENTI}
+\begin{itemize}
+ \item \href{./pdf/PERMUTAZIONE/lezione4.pdf}{DISPENSA: Gruppi di permutazioni} \cite{permutazione1}
+\end{itemize}
+
+
+\bibliography{AlgebraIndex}
+\bibliographystyle{plain}
+\end{document}

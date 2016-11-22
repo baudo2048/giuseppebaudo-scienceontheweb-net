@@ -1,0 +1,133 @@
+@BOOK
+{
+   etichetta,
+   AUTHOR="AUTORE",
+   TITLE="TITOLO",
+   PUBLISHER="PUBBLICAZIONE",
+   YEAR="ANNO",
+   EDITION="EDIZIONE",
+}
+
+@ARTICLE
+{
+   etichetta1,
+   AUTHOR="AUTORE",
+   TITLE="TITOLO",
+   JOURNAL="RIVISTA",
+   YEAR="ANNO"
+}
+
+@misc
+{
+  test,
+  author= "",
+  title= "",
+  howpublished= "",
+  month= "",
+  year= "",
+  note= "",
+  key= ""
+}
+
+@misc
+{
+  progmat1,
+  author= "Alessandra Cellini",
+  title= "Nucleo e Immagine di un Omomorfismo",
+  howpublished= "http://progettomatematica.dm.unibo.it/Gruppi/sez35/fr2.htm",
+  month= "",
+  year= "",
+  note= "",
+  key= ""
+}
+
+@misc{
+  coefbin,
+  author= "Community",
+  title= "Coefficiente binomiale",
+  howpublished= "https://it.wikipedia.org/wiki/Coefficiente_binomiale",
+  month= "",
+  year= "",
+  note= "",
+  key= ""
+}
+
+@misc{
+  combsempl,
+  author= "Community",
+  title= "Combinazioni semplici",
+  howpublished= "https://it.wikipedia.org/wiki/Combinazione#Combinazioni_semplici",
+  month= "",
+  year= "",
+  note= "",
+  key= ""
+}
+
+@misc{
+  assiomiprob,
+  author= "unibo",
+  title= "Definizione assiomatica o la teoria unificata di probabilità",
+  howpublished= "http://progettomatematica.dm.unibo.it/ProbElem/8definiz.html",
+  month= "",
+  year= "",
+  note= "",
+  key= ""
+}
+
+@misc{
+  calcprob,
+  author= "",
+  title= "",
+  howpublished= "http://www.simone.it/catalogo/v43_a.pdf",
+  month= "",
+  year= "",
+  note= "",
+  key= ""
+}
+
+@misc{
+  tbin,
+  author= "mathisfun.com",
+  title= "Binomial Theorem",
+  howpublished= "http://www.mathsisfun.com/algebra/binomial-theorem.html",
+  month= "",
+  year= "",
+  note= "",
+  key= ""
+}
+
+@misc
+{
+   pinclescl,
+   AUTHOR="Prof. Francesco Rizzotto",
+   TITLE="Principio di inclusione-esclusione",
+   YEAR="2011",
+   note={\href{./pdf/PRINCIPIO-INCLUSIONE-ESCLUSIONE/PrincipioInclusioneEsclusione.pdf}{scarica}}
+}
+
+@misc
+{
+   wpinclescl,
+   author="wikipedia.org",
+   title="Principio di inclusione-esclusione"
+}
+
+@misc{
+  derangement,
+  author= "wikipedia.org",
+  title= "Derangement",
+  howpublished= "https://en.wikipedia.org/wiki/Derangement",
+  month= "",
+  year= "",
+  note= "",
+  key= ""
+}
+
+@ARTICLE
+{
+   derangementlucch,
+   AUTHOR="Marta Lucchini",
+   TITLE="Derangement",
+   JOURNAL="http://www.baudo.hol.es/pages/algebra/pdf/derangement lucchini.pdf",
+   YEAR="2011"
+}
