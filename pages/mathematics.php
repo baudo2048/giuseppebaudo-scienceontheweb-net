@@ -18,38 +18,22 @@
   <div class="section">                         <!-- interests -->
     <div class="container ">                  <!-- interests > container -->
       <div class="row ">                    <!-- interests > container > row -->
-        <div class="col-md-12 ">          <!-- interests > container > row > col-md-12 -->
-          <h1 class="text-primary ">Mathematics</h1>
-          <h3>Subjects</h3>
-          <ul>
-            <li><a href="./mathematics/abstract-algebra.html">Abstract Algebra</a></li>
-            <li>Calculus</li>
-            <li>Geometry</li>
-            <li>Number Theory and Criptography</li>
-            <li><a href="./mathematics/prime-numbers.html">Prime Numbers</a></li>
-          </ul>
-
-
-          <h3>Resources</h3>
+        <div class="col-md-4">          <!-- interests > container > row > col-md-12 -->
+          <h1 class="text-primary ">Related topics</h1>
           <ul>
             <li><a href="http://dlmf.nist.gov/">Digital Library of Mathematical Functions</a></li>
             <li><a href="http://progettomatematica.dm.unibo.it/">Progetto Matematic@</a></li>
+            <li><a href="https://it.wikipedia.org/wiki/European_Research_Centres_on_Mathematics">European Research Centres on Mathematics</a></li>
+          </ul>       
+        </div>                  <!-- interests > container > row > col-md-4 -->
 
-          </ul> 
-
-          <h3>Places</h3>
-            <ul>
-              <li><a href="https://it.wikipedia.org/wiki/European_Research_Centres_on_Mathematics">European Research Centres on Mathematics</a></li>
-            </ul>       
-        </div>                  <!-- interests > container > row > col-md-12 -->
+        <div class="col-md-4">
+          <h1 class="text-primary text-center">Abstract Algebra</h1>
+          <img class="img-responsive center-block" src="./mathematics/img/abstractAlgebra.jpeg">
+          <p class="text-center">read more on github project page. <a href="https://github.com/baudo2048/mathematics" target="_blank">here.</a></p>
+        </div>
       </div>                    <!-- interests > container > row -->
     </div>                      <!-- interests > container -->
   </div>                        <!-- interests -->
 
-
-
-
-
-  
-
-  </body></html>
+</body></html>
