@@ -107,9 +107,10 @@
 
 @misc
 {
-   wpinclescl,
-   author="wikipedia.org",
-   title="Principio di inclusione-esclusione"
+   wfunzsur,
+   author="it.wikipedia.org",
+   title="Funzione suriettiva",
+   note={\url{https://it.wikipedia.org/wiki/Funzione_suriettiva}}
 }
 
 @misc{
@@ -130,4 +131,81 @@
    TITLE="Derangement",
    JOURNAL="http://www.baudo.hol.es/pages/algebra/pdf/derangement lucchini.pdf",
    YEAR="2011"
+}
+
+@misc{
+  permutazione1,
+  author= "Margherita Barile",
+  title= "Gruppi di permutazioni",
+  howpublished= "\url{http://www.dm.uniba.it/~barile/Rete4/algebra1_pdf/lezione4.pdf}",
+  month= "",
+  year= "",
+  note= "\url{http://www.dm.uniba.it/~barile/} - contiene una buona raccolta di materiale didattico",
+  key= ""
+}
+
+@misc{
+  permutazione2,
+  author= "\url{http://ioi.di.unimi.it}",
+  title= "Permutazioni",
+  howpublished= "\url{http://ioi.di.unimi.it/permutazioni.pdf}",
+  month= "",
+  year= "",
+  note= "",
+  key= ""
+}
+
+@misc{
+  cyclicgroup1,
+  author= "en.wikipedia.org",
+  title= "Cyclic group",
+  howpublished= "\url{https://en.wikipedia.org/wiki/Cyclic_group}",
+  month= "",
+  year= "",
+  note= "",
+  key= ""
+}
+
+@misc{
+  cyclicgroup2,
+  author= "en.wikipedia.org",
+  title= "Generating set of a group",
+  howpublished= "\url{https://en.wikipedia.org/wiki/Generating_set_of_a_group}",
+  month= "",
+  year= "",
+  note= "",
+  key= ""
+}
+
+@misc{
+  cyclicgroup3,
+  author= "Margherita Barile",
+  title= "Elementi periodici. Teoremi di Lagrange, Eulero e Fermat. Gruppi ciclici.",
+  howpublished= "\url{http://www.dm.uniba.it/~barile/Rete4/algebra1_pdf/lezione4.pdf}",
+  month= "",
+  year= "",
+  note= "\url{http://www.dm.uniba.it/~barile/} - contiene una buona raccolta di materiale didattico",
+  key= ""
+}
+
+@misc{
+  orderofgroup1,
+  author= "en.wikipedia.org",
+  title= "Order (group theory)",
+  howpublished= "\url{https://en.wikipedia.org/wiki/Order_%28group_theory%29}",
+  month= "",
+  year= "",
+  note= "",
+  key= ""
+}
+
+@misc{
+  orderofgroup2,
+  author= "en.wikipedia.org",
+  title= "Lagrange's theorem (group theory)",
+  howpublished= "\url{https://en.wikipedia.org/wiki/Lagrange's_theorem_%28group_theory%29}",
+  month= "",
+  year= "",
+  note= "",
+  key= ""
 }

@@ -15,6 +15,18 @@
 <script type="text/javascript" src="Carina%20Czisch%20-%20Web%20I%20Print%20I%20Digital%20Art_files/carouFredSel.js"></script>
 <script type="text/javascript" src="Carina%20Czisch%20-%20Web%20I%20Print%20I%20Digital%20Art_files/main.js"></script>
 
+
+    <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('app').catch(function(err){ console.error(err); });
+    </script>
+
+    
 </head>
 <body>
 <header>
@@ -76,6 +88,13 @@ function showNumber(event){
 </div>
 
 
+<!-- THIRD ROW -->
+<div class="container">
+<section class="col3-main">
+<span class="number"></span><h1 style="text-align: center;">Mathematics</h1><p class="einzug">I'm involed in a bunch of projects related to pure mathematics. Main topic includes math knowldge managment. <a href="./pages/mathematics/index.html" style="color: blue;">read more.</a></p>
+
+</section>
+</div>
 
 
 
@@ -87,7 +106,7 @@ function showNumber(event){
 <script type="text/javascript">
   document.write(new Date().getFullYear());
 </script>
-Giuseppe Baudo <div id="social"><a href="www.stackoverflow.com" target="_blank" class="align">Stackoverflow</a> <a href="www.github.com" target="_blank" class="align">github</a> <a href="www.medium.com" target="_blank" class="align">medium</a> <a href="#" target="_blank">twitter</a></div>
+Giuseppe Baudo <div id="social"><a href="www.stackoverflow.com" target="_blank" class="align">Stackoverflow</a> <a href="https://github.com/baudo2048?tab=repositories" target="_blank" class="align">github</a> <a href="www.medium.com" target="_blank" class="align">medium</a> <a href="#" target="_blank">twitter</a></div>
 </section></div>
 
 

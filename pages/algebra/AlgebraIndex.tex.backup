@@ -23,20 +23,38 @@
 
 \section{Syllabus}
 \begin{itemize}
- \item \href{.FunzioneSuriettiva.html}{Funzione suriettiva (o surgettiva, o suriezione)}
+ \item \href{./FunzioneSuriettiva.html}{Funzione suriettiva (o surgettiva, o suriezione)}
+ 
  \item \href{./Permutazione.html}{Permutazione}
- \item \href{./Derangement.html}{Derangement, partial derangement}
+ \item \href{./PermutazioneCicli.html}{Ciclo di una permutazione}
+ \item \href{./PermutazioniDisgiunte.html}{Cicli disgiunti}
+ \item \href{}{TEOREMA: Ogni permutazione si può scrivere come una composizione di cicli disgiunti in modo unico a meno dell'ordine dei cicli stessi}
+ \item \href{./Derangement.html}{Permutazione senza punti fissi, Derangement, partial derangement}
+ \item Periodo (ordine) di una permutazione
+ \item Segno di una permutazione
+ \item Orbita ???
+ 
  \item \href{./CoefficientiBinomiali.html}{Coefficienti binomiali: definizione e proprietà}
  \item \href{./PrincipioInclusioneEsclusione.html}{Principio di inclusione-esclusione}
- \item Permutazioni senza punti fissi
- \item Gruppo, sottogruppo, gruppo abeliano
- \item Gruppo generale lineare e gruppo simmetrico
+ 
+ \item \href{./Gruppo.html}{Gruppo}
  \item Elemento neutro di un gruppo
- \item classi resto modulo n rispetto alla somma
+ \item Sottogruppo
+ \item Gruppo abeliano
+ \item \href{./OrderOfGroup.html}{Order of a group}
+ \item \href{./TeoremaDiLagrange.html}{Teorema di Lagrange e sue conseguenze} 
+ \item \href{./CyclicGroup.html}{Gruppo ciclico}
+ 
+ \item ESEMPIO GRUPPO: Gruppo generale lineare
+ \item ESEMPIO GRUPPO: Gruppo simmetrico 
+ \item ESEMPIO GRUPPO: classi resto modulo n rispetto alla somma
+ \item ESEMPIO GRUPPO: Gruppo di permutazioni ??? non so se andrà qui.
+ 
  \item \href{./OmomorfismoGruppi.html}{Omomorfismo di gruppi}
  \item Nucleo, nucleo di una funzione, nucleo di applicazione lineare
  \item \href{./Nucleo.html}{Nucleo di omomorfismo di gruppi}
  \item Insieme degli omomorfismo di gruppi ( dati due gruppi $G$ e $H$ in simboli: $Hom(G,H)$)
+ 
 \end{itemize}
 
 \section{Esercizi}

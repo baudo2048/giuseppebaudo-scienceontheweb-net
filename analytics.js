@@ -5,6 +5,7 @@ $(document).ready(function(){
 	// to see list of userip please follow rest: 
 	// https://api.mlab.com/api/1/databases/baudo2048/collections/analytics?apiKey=sRlJ7RW1HNf0iR7-RDx5TyurrVhjCA7c
     // finally find info about ip address: http://www.infobyip.com/
+    // or better http://ipinfo.io/
 	// I need to save this data!!!
 	function insertDocument(doc,coll){
         var user = getCookie('baudo2048user');

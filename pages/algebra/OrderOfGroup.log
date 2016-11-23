@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2016.3.8)  22 NOV 2016 12:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2016.3.8)  22 NOV 2016 23:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -972,22 +972,22 @@ LaTeX Info: Redefining \pageref on input line 10.
 LaTeX Info: Redefining \nameref on input line 10.
 --- file OrderOfGroup.css ---
 
-[1] [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 24.
+[1] [2] [3]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 26.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
- [3]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
+
 (./OrderOfGroup.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 31.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 33.
  [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 31.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 33.
  (./OrderOfGroup.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 31.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 31.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 31.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 33.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 33.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 33.
  ) 
 Here is how much of TeX's memory you used:
  9724 strings out of 495029
@@ -998,4 +998,4 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  37i,6n,35p,710b,540s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on OrderOfGroup.dvi (57 pages, 34284 bytes).
+Output written on OrderOfGroup.dvi (57 pages, 34452 bytes).
