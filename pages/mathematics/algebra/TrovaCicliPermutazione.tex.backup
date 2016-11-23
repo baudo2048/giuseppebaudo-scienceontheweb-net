@@ -1,0 +1,25 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{hyperref}
+
+%opening
+\title{Come trovare i cicli di una permutazione}
+\author{www.baudo.hol.es}
+
+\begin{document}
+
+\maketitle
+
+\section{ESEMPIO}
+Come fare a ottenere una rappresentazione in cicli di una permutazione? Basta "seguire" una lettera qualunque fino a trovare
+un ciclo: per esempio, in $\left( \begin{array}{cccc} 1 & 2 & 3 & 4 \\ 3 & 1 & 2 & 4 \\ \end{array} \right) $
+
+\section{APPROFONDIMENTI}
+\begin{itemize}
+ \item DISPENSA: Permutazioni \cite{permutazione2}
+\end{itemize}
+
+\bibliography{AlgebraIndex}
+\bibliographystyle{plain}
+\end{document}
