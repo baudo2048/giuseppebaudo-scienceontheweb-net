@@ -22,13 +22,13 @@
 
 
         <div class="col-md-4">
-          <h1 class="text-primary text-center">Abstract Algebra</h1>
+          <h1 class="text-primary text-center">Algebra</h1>
           <img width="276px" height="183px" class="img-responsive center-block" src="./mathematics/img/abstractAlgebra.jpeg">
           <p class="text-center"><a href="https://github.com/baudo2048/mathematics" target="_blank">Get involved</a></p>
           <p class="text-center"><a href="./mathematics/algebra/AlgebraIndex.html">Demo</a></p>
         </div>
         <div class="col-md-4">
-          <h1 class="text-primary text-center">Analisi Matematica</h1>
+          <h1 class="text-primary text-center">Analisi</h1>
           <img width="276px" height="183px" class="img-responsive center-block" src="./mathematics/img/analisi.jpeg">
           <p class="text-center"><a href="https://github.com/baudo2048/mathematics" target="_blank">Get involved</a></p>
           <p class="text-center"><a href="./mathematics/analisi/Analisi.html">Demo</a></p>
