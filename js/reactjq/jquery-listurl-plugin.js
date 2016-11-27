@@ -66,7 +66,9 @@
         		background-color:red;
         	}
         	</style>
-            <label class="label-red">tag</label>
+            <label>collection</label>
+            <input data-saveurlui-tag="collection" type="text"> 
+            <label>tag</label>
             <input data-saveurlui-tag="tag" type="text">
             <label>url</label>
             <input data-saveurlui-tag="url" type="text">
@@ -82,7 +84,7 @@
 
         $('[data-saveurlui-ok="ok"]').on('click', function(){
             $(this).saveurl(
-                'links',
+                $('[data-saveurlui-tag="collection"]').val(),
                 $('[data-saveurlui-tag="tag"]').val(),
                 $('[data-saveurlui-tag="url"]').val(),
                 $('[data-saveurlui-tag="title"]').val(),
@@ -98,3 +100,4 @@
     
  
 }( jQuery ));
+
