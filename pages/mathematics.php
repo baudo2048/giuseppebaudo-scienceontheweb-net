@@ -25,13 +25,13 @@
           <h1 class="text-primary text-center">Algebra</h1>
           <img width="276px" height="183px" class="img-responsive center-block" src="./mathematics/img/abstractAlgebra.jpeg">
           <p class="text-center"><a href="https://github.com/baudo2048/mathematics" target="_blank">Get involved</a></p>
-          <p class="text-center"><a href="./mathematics/algebra/AlgebraIndex.html">Demo</a></p>
+          <p class="text-center"><a href="./mathematics/mathematics/algebra/AlgebraIndex.html">Demo</a></p>
         </div>
         <div class="col-md-4">
           <h1 class="text-primary text-center">Analisi</h1>
           <img width="276px" height="183px" class="img-responsive center-block" src="./mathematics/img/analisi.jpeg">
           <p class="text-center"><a href="https://github.com/baudo2048/mathematics" target="_blank">Get involved</a></p>
-          <p class="text-center"><a href="./mathematics/analisi/Analisi.html">Demo</a></p>
+          <p class="text-center"><a href="./mathematics/mathematics/analisi/Analisi.html">Demo</a></p>
         </div> 
         <div class="col-md-4">
           <h1 class="text-primary text-center">Geometria</h1>
@@ -40,7 +40,7 @@
             <a href="https://github.com/baudo2048/mathematics" target="_blank">Get involved</a>
           </p>
           <p class="text-center">
-            <a class="text-right" href="./mathematics/geometria/Geometria.html">Demo</a></p>
+            <a class="text-right" href="./mathematics/mathematics/geometria/Geometria.html">Demo</a></p>
 
         </div>                
       </div>                    <!-- interests > container > row -->
