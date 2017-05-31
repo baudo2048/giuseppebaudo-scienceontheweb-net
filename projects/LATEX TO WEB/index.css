@@ -1,12 +1,4 @@
-@page {
-    size: 21cm 29.7cm;
-    margin: 15mm 20mm 20mm 20mm; /* change the margins as you want them to be. */
-}
-
-body {
-	background-color: white;
-	
-}	
+ 
 /* start css.sty */
 p.noindent { text-indent: 0em }
 td p.noindent { text-indent: 0em; margin-top:0em; }
@@ -115,7 +107,10 @@ div.author{white-space: nowrap;}
 .quotation {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; }
 .abstract p {margin-left:5%; margin-right:5%;}
 div.abstract {width:100%;}
+.subsectionToc, .likesubsectionToc {margin-left:2em;}
+.subsubsectionToc, .likesubsubsectionToc {margin-left:4em;}
 .figure img.graphics {margin-left:10%;}
+body { background-color : green; }
 .columns-2 p:first-child { margin-top: 0em; }
 .columns-2{-moz-column-count:2; -webkit-column-count:2; column-count:2; -moz-column-gap: 10.0pt; -webkit-column-gap: 10.0pt; column-gap: 10.0pt; -moz-column-rule-width: 0.0pt; -webkit-column-rule-width: 0.0pt; column-rule-rule-width: 0.0pt; -moz-column-rule-color: #555;; -webkit-column-rule-color: #555;; column-rule-color: #555;; -moz-column-rule-style: outset; -webkit-column-rule-style: outset; column-rule-style: outset; -moz-column-fill: balance; -webkit-column-fill: balance; column-fill: balance; }
 .columns-3 p:first-child { margin-top: 0em; }
