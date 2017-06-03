@@ -116,6 +116,10 @@ Css: .abstract p {margin-left:5%; margin-right:5%;}
 Css: div.abstract {width:100%;}
 Css: table.multicols { width:100%; margin-left:1em; margin-top:1em; margin-bottom:1em; }
 Css: .figure img.graphics {margin-left:10%;}
+<<<<<<< HEAD
 Css: body { margin-left:200px; margin-right:200px; text-align: justify; }
+=======
+File: profile.jpg
+>>>>>>> cc91aa1afb540f76753a582c3fac317dc3fcc7ca
 --- characters ---
 Font("cmr","10","10","100")

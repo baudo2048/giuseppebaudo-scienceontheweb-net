@@ -107,8 +107,12 @@ div.author{white-space: nowrap;}
 .quotation {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; }
 .abstract p {margin-left:5%; margin-right:5%;}
 div.abstract {width:100%;}
+<<<<<<< HEAD
 table.multicols { width:100%; margin-left:1em; margin-top:1em; margin-bottom:1em; }
 .figure img.graphics {margin-left:10%;}
 body { margin-left:200px; margin-right:200px; text-align: justify; }
+=======
+.figure img.graphics {margin-left:10%;}
+>>>>>>> cc91aa1afb540f76753a582c3fac317dc3fcc7ca
 /* end css.sty */
 

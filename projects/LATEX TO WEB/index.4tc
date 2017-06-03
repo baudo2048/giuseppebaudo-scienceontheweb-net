@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi
 \doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-1000}{QQ2-1-1}{Giuseppe Baudo}}{1}\relax 
 \doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-2000}{QQ2-1-2}{Java Developer}}{1}\relax 
@@ -6,3 +7,6 @@
 \doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-5000}{QQ2-1-5}{Business Intelligence}}{1}\relax 
 \doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-6000}{QQ2-1-6}{IT Department}}{2}\relax 
 \doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-7000}{QQ2-1-7}{Other skills}}{2}\relax 
+=======
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi
+>>>>>>> cc91aa1afb540f76753a582c3fac317dc3fcc7ca
