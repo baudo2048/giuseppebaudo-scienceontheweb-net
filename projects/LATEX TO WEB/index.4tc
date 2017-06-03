@@ -1,8 +1,8 @@
 \expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi
-\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-1000}{QQ2-1-1}{IT CONSULTANT}}{1}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-1000}{QQ2-1-1}{Giuseppe Baudo}}{1}\relax 
 \doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-2000}{QQ2-1-2}{Java Developer}}{1}\relax 
 \doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-3000}{QQ2-1-3}{Javascript}}{1}\relax 
-\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-4000}{QQ2-1-4}{C#}}{2}\relax 
-\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-5000}{QQ2-1-5}{Business Intelligence}}{2}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-4000}{QQ2-1-4}{C#}}{1}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-5000}{QQ2-1-5}{Business Intelligence}}{1}\relax 
 \doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-6000}{QQ2-1-6}{IT Department}}{2}\relax 
-\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-7000}{QQ2-1-7}{Other skills}}{3}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-7000}{QQ2-1-7}{Other skills}}{2}\relax 
