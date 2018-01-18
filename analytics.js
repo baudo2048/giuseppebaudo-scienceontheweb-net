@@ -30,5 +30,6 @@ $(document).ready(function(){
 
 
     insertDocument(userip,'analytics');
-	
+
+    startApplication();
 });
